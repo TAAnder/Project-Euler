@@ -2,7 +2,7 @@
 higherthan = {}
 lowerthan = {}
 
-# file cleanup -- opening a text file and splitting the two 'new line' segments into a dna strand and a target pattern
+# file cleanup -- opening a text file and splitting the passwords into codes
 with open("Euler 79/0079_keylog.txt",mode='r') as logs:
 	contents = logs.read()
 data = contents.split()
